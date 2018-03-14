@@ -8,12 +8,13 @@ create key app
 php artisan key:generate
 
 ```
+Edit env file define the database connections
 
 migrate database
 
 ```
-php artisan key:generate
+php artisan migrate
 
 ```
 
-###Good look
+### Good look
